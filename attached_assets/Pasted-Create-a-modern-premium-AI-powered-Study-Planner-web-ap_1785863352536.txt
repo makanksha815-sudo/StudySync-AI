@@ -1,0 +1,215 @@
+Create a modern, premium AI-powered Study Planner web application using React, TypeScript, Tailwind CSS, and shadcn/ui.
+
+The design should feel like a mix of Apple, Notion, and Linear with glassmorphism, smooth animations, rounded corners, soft shadows, gradient accents, and a clean productivity-focused interface.
+
+Use a dark theme by default with purple, blue, and cyan gradients.
+
+The application should be fully responsive for desktop, tablet, and mobile.
+
+------------------------------------
+MAIN FEATURES
+------------------------------------
+
+1. Beautiful Dashboard
+- Welcome section
+- Daily motivational quote
+- Current date and time
+- Greeting based on time
+- Study streak counter
+- Overall productivity score
+- Weekly progress
+
+2. AI Study Planner
+Allow users to:
+- Enter subjects
+- Add assignments
+- Add deadlines
+- Add exam dates
+- Mention study hours available per day
+
+Generate an intelligent study schedule that prioritizes urgent tasks first.
+
+Display the schedule in beautiful cards.
+
+3. Smart To-Do List
+- Add tasks
+- Edit tasks
+- Delete tasks
+- Mark complete
+- Filter by subject
+- Filter by priority
+- Progress bar
+
+4. Calendar View
+Monthly calendar showing:
+- Exams
+- Assignments
+- Deadlines
+- Study sessions
+
+5. Pomodoro Timer
+- 25-minute focus timer
+- 5-minute break
+- 15-minute long break
+- Circular animated timer
+- Start, Pause, Reset
+
+6. Notes Section
+Allow users to:
+- Create notes
+- Pin notes
+- Search notes
+- Color-code notes
+
+7. Subject Management
+Users can:
+- Add subjects
+- Assign colors
+- Track progress
+- Track completed chapters
+
+8. Analytics Dashboard
+Display:
+- Hours studied this week
+- Completed tasks
+- Pending tasks
+- Productivity graph
+- Study consistency
+- Subject-wise progress
+- Weekly heatmap
+
+9. Goal Tracker
+Allow users to create goals like:
+- Finish Java Module 2
+- Complete DSA
+- Study 3 hours daily
+- Read IoT notes
+
+Display completion percentage.
+
+10. Notifications Panel
+Upcoming:
+- Exams
+- Deadlines
+- Missed tasks
+- Today's schedule
+
+------------------------------------
+AI FEATURES
+------------------------------------
+
+Create placeholder AI sections for future integration.
+
+Buttons:
+- Generate Study Plan
+- Explain Topic
+- Quiz Me
+- Summarize Notes
+- Suggest Revision Schedule
+
+For now, simulate AI responses using predefined mock data.
+
+------------------------------------
+UI REQUIREMENTS
+------------------------------------
+
+Use:
+- Glassmorphism cards
+- Bento Grid layout
+- Floating Action Button
+- Smooth Framer Motion animations
+- Lucide Icons
+- Soft glowing gradients
+- Beautiful loading animations
+- Animated progress bars
+- Skeleton loaders
+- Hover effects
+- Micro interactions
+- Sticky sidebar
+- Responsive navigation
+
+------------------------------------
+PAGES
+------------------------------------
+
+Home
+
+Dashboard
+
+Planner
+
+Calendar
+
+Tasks
+
+Pomodoro
+
+Analytics
+
+Goals
+
+Notes
+
+Settings
+
+------------------------------------
+SETTINGS
+------------------------------------
+
+Dark/Light mode
+
+Accent color selection
+
+Profile picture
+
+Username
+
+Study goal
+
+Daily study target
+
+------------------------------------
+EXTRA FEATURES
+------------------------------------
+
+Confetti animation when completing all daily tasks.
+
+Achievement badges.
+
+Study streaks.
+
+Daily quote.
+
+Animated onboarding.
+
+Keyboard shortcuts.
+
+Command palette like VS Code.
+
+Export study schedule as PDF.
+
+------------------------------------
+CODE REQUIREMENTS
+------------------------------------
+
+Use clean folder structure.
+
+Use reusable React components.
+
+Use TypeScript.
+
+Use Tailwind CSS.
+
+Use shadcn/ui components.
+
+Use React Router.
+
+Use local storage for persistence.
+
+Write readable, scalable code.
+
+Include comments where appropriate.
+
+Generate a professional README.md explaining features, installation, technologies used, screenshots section, and future improvements.
+
+The final result should look like a premium productivity application suitable for a professional GitHub portfolio and Smart India Hackathon demonstration.

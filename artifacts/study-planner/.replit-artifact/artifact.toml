@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "AI Study Planner"
+description = "A premium AI-powered Study Planner web application with dark theme, glassmorphism UI, Framer Motion animations. Features a Dashboard, AI Study Planner, Smart To-Do, Calendar, Pomodoro Timer, Notes, Subject Management, Analytics, Goal Tracker, and Notifications — all persisted in local storage."
+version = "1.0.0"
+id = "artifacts/study-planner"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18986
+
+[services.development]
+run = "pnpm --filter @workspace/study-planner run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/study-planner", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/study-planner/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18986"
+BASE_PATH = "/"
