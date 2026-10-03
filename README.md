@@ -55,4 +55,7 @@ A modern AI-powered study planner designed to help students organize their acade
 
 **Akanksha Mishra**
 
-⭐ If you found this project interesting, consider giving it a star!
+## 📌 Project Note
+
+This project was developed as a learning project with the assistance of AI tools. 
+It is being used to explore React, TypeScript, Tailwind CSS, and modern web application development.
